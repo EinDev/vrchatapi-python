@@ -10,7 +10,7 @@ rm vrchatapi docs -rf
 --git-user-id=vrchatapi \
 --git-repo-id=vrchatapi-python \
 -o . \
--i https://raw.githubusercontent.com/vrchatapi/specification/gh-pages/openapi.yaml \
+-i https://api.redocly.com/registry/assets/test-lcz/VRC-Specification/latest/openapi/openapi.yaml?branch=main&download=true \
 --http-user-agent="vrchatapi-py"
 
 # Fix description, keywords, etc...
